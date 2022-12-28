@@ -38,7 +38,7 @@ class ItemController extends Controller
         //para auto ang user id
         // auth()->user()->question()->create($request->all());
         
-        Question::create($request->all());
+        Item::create($request->all());
 
         // $question =  new Question();
         // $question->title = $request->title;
